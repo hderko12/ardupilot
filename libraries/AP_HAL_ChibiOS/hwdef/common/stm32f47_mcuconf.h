@@ -112,9 +112,9 @@
 #define STM32_PLLQ_VALUE                    7
 #elif STM32_HSECLK == 16000000U
 #define STM32_PLLM_VALUE                    16
-#define STM32_PLLN_VALUE                    384
-#define STM32_PLLP_VALUE                    4
-#define STM32_PLLQ_VALUE                    8
+#define STM32_PLLN_VALUE                    336
+#define STM32_PLLP_VALUE                    2
+#define STM32_PLLQ_VALUE                    7
 #elif STM32_HSECLK == 24000000U
 #define STM32_PLLM_VALUE                    24
 #define STM32_PLLN_VALUE                    336
